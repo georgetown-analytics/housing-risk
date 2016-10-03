@@ -1,0 +1,4 @@
+ref_name,date,folder_path,access_filename,contracts_csv_filename,properties_csv_filename
+current,8/2/2016,..\data\section8\contracts_database\main-website\,MF_Assistance_&_Sec8_Contracts_2016-08-02.mdb,sec8contracts_2016-08-02.csv,properties_2016-08-02.csv
+ia_2015,9/5/2015,..\data\section8\contracts_database\internetArchive\,MF_Assistance_&_Sec8_Contracts_2015-09-05.mdb,sec8contracts_2015-09-05.csv,properties_2015-09-05.csv
+ia_2011,9/22/2011,..\data\section8\contracts_database\internetArchive\,MF_Assistance_&_Sec8_Contracts_2011-09-22.mdb,sec8contracts_2011-09-22.csv,properties_2011-09-22.csv

@@ -4,6 +4,8 @@ import logging
 logging_filename = "../logs/example.log"
 logging.basicConfig(filename=logging_filename, level=logging.DEBUG)
 
+#Pushes everything from the logger to the command line output as well.
+logging.getLogger().addHandler(logging.StreamHandler()) 			
 
 #----------------
 # Example logging
@@ -30,3 +32,7 @@ logging.info("This message only comes through when level=logging.DEBUG")
 logging.debug("this is a debug message", stack_info=True)
 
 print("Example logging complete! Open example.log to see what happened.")
+
+
+# Note - it is also possible to configure multiple loggers. Check out logging.logger to show this. 
+# Just using logging.info() calls the 'default' logger. 
